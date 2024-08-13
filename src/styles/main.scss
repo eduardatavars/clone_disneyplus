@@ -3,6 +3,7 @@
 @use 'shows';
 @use 'plans';
 @use 'available-devices';
+@use 'faq';
 
 @font-face {
     font-family: Avenir;
@@ -121,4 +122,17 @@ body {
             justify-content: center;
         }
     }
+}
+
+.text--subItem {
+    list-style-type: disc;
+
+    li {
+        padding-top: 20px;
+        margin-left: 40px;
+    }
+}
+
+.linkDesc {
+    color: variaveis.$corTextoSecundario;
 }
